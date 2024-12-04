@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         } else {
             try {
                 // Paystack API details
-                $paystackSecretKey = "sk_live_0f2efa47723501c662cb7780747d44072e98a566"; // Replace with your secret key
+                $paystackSecretKey = "your paystack secret key "; // Replace with your secret key
 
                 // Get logged-in user details
                 $userId = $_SESSION['user_id'];
