@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['reference'])) {
     $reference = $_GET['reference'];
 
     // Verify the transaction using Paystack API
-    $paystackSecretKey = "sk_live_0f2efa47723501c662cb7780747d44072e98a566"; // Replace with your secret key
+    $paystackSecretKey = "paystack secret key"; // Replace with your secret key
     $url = "https://api.paystack.co/transaction/verify/$reference";
 
     $ch = curl_init();
