@@ -23,7 +23,7 @@ Online Wallet is a web application that allows users to securely manage their di
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/online-wallet.git
+   git clone https://github.com/yourusername/online-wallet-.git
    cd online-wallet-
    ```
 
