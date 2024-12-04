@@ -61,7 +61,7 @@ $stmt->execute([
 ]);
 
 // Paystack API call using cURL
-$paystackSecretKey = 'sk_live_0f2efa47723501c662cb7780747d44072e98a566';
+$paystackSecretKey = 'your paystack secret key';
 $paystackUrl = 'https://api.paystack.co/transferrecipient';
 
 // First, create a transfer recipient
@@ -69,7 +69,7 @@ $recipientData = [
     'type' => 'nuban', // for Nigerian bank accounts
     'name' => $fullName,
     'account_number' => $accountNumber,
-    'bank_code' => '999992', // Opay is handled via Access Bank's bank code
+    'bank_code' => '999992', // Opay 
     'currency' => 'NGN'
 ];
 
